@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link,Redirect } from 'react-router-dom'
-import { getUser, clearUser } from '../../../infra/local-storage'
+import { Link } from 'react-router-dom'
+import { getUser } from '../../../infra/local-storage'
 import './menu.css'
 
 

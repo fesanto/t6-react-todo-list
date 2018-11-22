@@ -7,7 +7,7 @@ function Button(props){
     if(props.disabled){
         classes += ' button--disabled'
     }
-
+    
     return(
         <button disabled={props.disabled} className={classes}>
             {props.children}
